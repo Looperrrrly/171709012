@@ -169,7 +169,6 @@ while 1:
     str0 = input()
     if(str0 == "END"):
         break
-        main(s)
     level = str0.split("!")[0]
     level = int(level)
     str0 = str0.split("!")[1]
